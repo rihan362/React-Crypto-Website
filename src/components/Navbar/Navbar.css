@@ -22,7 +22,7 @@
     cursor: pointer;
 }
 
-.navbar-right{
+.nav-right{
     display: flex;
     align-items: center;
     gap: max(1vw,12px);
