@@ -50,7 +50,7 @@
     border: none;
     background: #7927ff;
     color: white;
-    font-size: 30px;
+    font-size: 15px;
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
@@ -100,4 +100,26 @@
     text-align: center;
 }
 
+@media (max-width:768px)
+{
+    .table-layout{
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .market-cap{
+        display: none;
+    }
+}
+
+@media (max_width:500px)
+{
+    .table-layout div img{
+        width: 25px;
+    }
+    .table-layout{
+        font-size: 13px;
+    }
+    .hero form input{
+        width: 100px;
+    }
+}
 
